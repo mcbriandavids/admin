@@ -1,9 +1,11 @@
 import React from 'react'
 
-export const App = () => {
+const App = () => {
   return (
     <div>
-      <h4>Admin Dashboard</h4>
+      <h4>Admin</h4>
     </div>
   )
 }
+
+export default App
