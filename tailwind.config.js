@@ -3,9 +3,18 @@ module.exports = {
 	darkMode: false, // or 'media' or 'class'
 	theme: {
 		extend: {},
+		fontFamily: {
+			Poppins: ["Poppins", "san-serif"],
+		},
+		animation: {
+			spin: "spin 8s linear infinite",
+			bounce: "bounce 6s infinite",
+		},
 	},
+
 	variants: {
 		extend: {},
 	},
+
 	plugins: [],
 };

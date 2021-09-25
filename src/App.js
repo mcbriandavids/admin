@@ -1,11 +1,10 @@
 import React from "react";
+import Routes from "./components/Routes";
 
-const App = () => {
-	return (
-		<div>
-			<h4 className='text-red-500 font-bold '>Admin Dashboard</h4>
-		</div>
-	);
-};
+const App = () => (
+	<>
+		<Routes />
+	</>
+);
 
 export default App;

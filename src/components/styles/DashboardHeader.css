@@ -1,0 +1,16 @@
+.nav-link {
+	height: 0;
+	overflow: hidden;
+	transition: all 1000ms;
+}
+.show-nav {
+	height: 400px;
+}
+@media screen and (min-width: 650px) {
+	.nav-link {
+		height: auto;
+		display: flex;
+		margin-left: auto;
+		padding: 1.2rem;
+	}
+}
