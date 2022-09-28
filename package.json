@@ -18,11 +18,7 @@
     "test": "craco test",
     "eject": "react-scripts eject"
   },
-  "engines": {
-    "npm":">=7.0.0",
-    "node": ">=16.0.0"
-  },
-  "eslintConfig": {
+   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
@@ -45,5 +41,8 @@
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14",
     "web-vitals": "^2.1.0"
+  },
+  "engines": {
+    "node": "16.13.2"
   }
 }
